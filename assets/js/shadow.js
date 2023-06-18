@@ -314,14 +314,9 @@ customElements.define('hero-component', class extends HTMLElement {
       <section class="section service" id="services" aria-label="service">
         <div class="container">
 
-          <p class="section-subtitle text-center">-What We Offer-</p>
+          
 
-          <h2 class="h2 section-title text-center">Our Creative Services</h2>
-
-          <p class="section-text text-center">
-            Get the most of reduction in your team’s operating costs for the whole product which creates amazing UI/UX
-            experiences.
-          </p>
+          <h2 style="margin-bottom: 20px;" class="h2 section-title text-center">Support Us</h2>
 
           <ul class="grid-list">
 
@@ -329,17 +324,16 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                  <img src="./assets/images/cbe.jpg" width="140" height="140" loading="lazy"
                     alt="UI/UX Creative Design" class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">UI/UX Creative Design</h3>
+                  <h3 class="h3 card-title">Commercial Bank of Ethiopia</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
-                    adipiscing elit.
+                  1000071369777
                   </p>
 
                   <a href="#" class="btn-link">
@@ -357,17 +351,16 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                  <img src="./assets/images/awash.svg" width="140" height="140" loading="lazy" alt="App Development"
                     class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">App Development</h3>
+                  <h3 class="h3 card-title">Awash Bank</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
-                    adipiscing elit.
+                  1000071369777
                   </p>
 
                   <a href="#" class="btn-link">
@@ -385,17 +378,16 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+                  <img src="./assets/images/Coopbank.svg" width="140" height="140" loading="lazy"
                     alt="Professional Content Writer" class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Professional Content Writer</h3>
+                  <h3 class="h3 card-title">COOP Birhan Bank</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
-                    adipiscing elit.
+                  1143340530256
                   </p>
 
                   <a href="#" class="btn-link">
@@ -413,17 +405,16 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-4.png" width="140" height="140" loading="lazy" alt="Graphic Design"
+                  <img src="./assets/images/abyssinia.svg" width="140" height="140" loading="lazy" alt="abyssinia"
                     class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">Graphic Design</h3>
+                  <h3 class="h3 card-title">Bank of Abyssinia</h3>
 
                   <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adi piscing semper turpis. Nullam eget luctlie gula and
-                    adipiscing elit.
+                  15959444
                   </p>
 
                   <a href="#" class="btn-link">
@@ -661,7 +652,7 @@ customElements.define('hero-component', class extends HTMLElement {
   <section class="section features" id="features" aria-label="features">
     <div class="container">
 
-      <h2 style="margin-bottom:30px;"class="h2 section-title text-center">አላማ CGM TV ETHIOPIA</h2>
+      <h2 style="color:#2A388B;margin-bottom:50px;" class="h2 section-title text-center">አላማ CGM TV ETHIOPIA</h2>
 
      
 

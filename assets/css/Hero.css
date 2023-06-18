@@ -30,7 +30,7 @@
     --light-gray: hsl(0, 0%, 80%);
     --mint-cream: hsl(160, 100%, 98%);
     --cultured: hsl(0, 0%, 93%);
-    --go-green: hsla(234, 50%, 64%, 1);
+    --go-green: #2A388B;
     --white: hsl(0, 0%, 100%);
     --jet: hsl(0, 0%, 18%);
   
@@ -184,7 +184,7 @@
   .h2,
   .h3,
   .h2-sm {
-    color: var(--rich-black-fogra-29-1);
+    color: var(--go-green);
     font-family: var(--ff-cuprum);
   }
   
@@ -567,6 +567,7 @@
   
   .features-card .card-number {
     position: absolute;
+    color: #2A388B;
     top: 0;
     left: 25px;
     transform: translateY(-50%);
@@ -860,7 +861,7 @@
   
     .service-card { text-align: left; }
   
-    .service-card .card-icon { margin-inline: 0; }
+    .service-card .card-icon { margin-inline: 0; align-self: center; }
     
     .service-card .btn-link { justify-content: flex-start; }
   

@@ -20,7 +20,7 @@
    * colors
    */
 
-  --violet-blue-crayola: hsla(234, 50%, 64%, 1);
+  --violet-blue-crayola: #2A388B;
   --dark-cornflower-blue_a7: hsla(214, 88%, 27%, 0.07);
   --white: hsla(0, 0%, 100%, 1);
   --white_a3: hsla(0, 0%, 100%, 0.03);
@@ -31,12 +31,15 @@
   --lavender-web: hsla(233, 52%, 94%, 1);
   --cadet-blue-crayola: hsla(220, 12%, 70%, 1);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
-  --charcoal: hsla(234, 50%, 64%, 1);
+  --charcoal: #2A388B;
   --raisin-black: hsla(216, 14%, 14%, 1);
   --light-gray: hsla(0, 0%, 79%, 1);
   --blue-crayola: hsla(219, 72%, 56%, 1);
   --black-coral: hsla(220, 12%, 43%, 1);
+  --safety-orange: #212de1;
+  --persian-rose: #2A388B;
 
+  --gradient: linear-gradient(to left top, var(--persian-rose), var(--safety-orange));
   /**
    * typography
    */
@@ -728,7 +731,7 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.footer-link:is(:hover, :focus-visible) { color: var(--violet-blue-crayola); }
+.footer-link:is(:hover, :focus-visible) { color: white; }
 
 .input-wrapper {
   position: relative;
