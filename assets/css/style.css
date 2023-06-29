@@ -169,6 +169,11 @@ body.nav-active { overflow: hidden; }
   #REUSED STYLE
 \*-----------------------------------*/
 
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 .container { padding-inline: 16px; }
 
 .social-list {
