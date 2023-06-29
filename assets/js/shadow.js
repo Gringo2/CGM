@@ -773,7 +773,7 @@ customElements.define('hero-component', class extends HTMLElement {
           <div class="service-card has-after">
 
             <figure class="card-icon">
-              <img src="./assets/images/service-3.png" width="140" height="140" loading="lazy"
+              <img src="./assets/images/values.svg" width="140" height="140" loading="lazy"
                 alt="Professional Content Writer" class="img">
             </figure>
 
@@ -798,7 +798,7 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-2.png" width="140" height="140" loading="lazy" alt="App Development"
+                  <img src="./assets/images/mission.svg" width="140" height="140" loading="lazy" alt="App Development"
                     class="img">
                 </figure>
 
@@ -823,7 +823,7 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/service-1.png" width="140" height="140" loading="lazy"
+                  <img style="margin: 20px 0px;" src="./assets/images/vision.svg" width="140" height="140" loading="lazy"
                     alt="UI/UX Creative Design" class="img">
                 </figure>
 
