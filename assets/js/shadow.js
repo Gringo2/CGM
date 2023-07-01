@@ -583,7 +583,7 @@ customElements.define('hero-component', class extends HTMLElement {
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/500"><img src="./assets/images/img1.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/500"><img src="./assets/images/img1.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -591,7 +591,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/600"><img src="./assets/images/img2.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/600"><img src="./assets/images/img2.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -599,7 +599,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/700"><img src="./assets/images/img3.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/700"><img src="./assets/images/img3.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -615,7 +615,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/900"><img src="./assets/images/img9.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/900"><img src="./assets/images/img9.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -623,7 +623,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/1000"><img height="250" src="./assets/images/img6.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/1000"><img height="250" src="./assets/images/img6.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -639,7 +639,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/1200"><img height="250" src="./assets/images/img8.png" class="img-responsive"></a>
+            <a href="https://unsplash.it/1200"><img height="250" src="./assets/images/img8.PNG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
