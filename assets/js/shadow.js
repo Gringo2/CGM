@@ -20,25 +20,25 @@ customElements.define('hero-component', class extends HTMLElement {
 
         <p class="hero-subtitle has-before">Wellcome to Our Church</p>
 
-        <h1 class="h1 hero-title">Involve in Church Activities</h1>
+        <h1 class="h1 hero-title">የክርስቶስ ታላቅ ተልዕኮ አለም አቀፍ ቤተክርስትያን</h1>
 
         <p class="hero-text">
-          Donec tincidunt lacinia diam, eu volutpat est sollicitudin at. Vestibulum ut mi tristi que, vulputate ante
-          quis, tempus
-          enim. Proin quis euismod purus. Suspen disse efficitur
-          aliquam enim sed consequat vulputate ante quis.
+        ነብይት ኤልሳቤት ታፈሰ ከ 2010 ጀምሮ   በሀገር ውስጥም ከሀገር ውጪም በመዘዋወር ወንጌልን በመስበክ ለብዙዎች ነፃ መውጣት እና መፈወስ እና
+         መባረክ ምክንያተ የሆነች ወጣት አገልጋይ ነች አሁን በ አዲስ አበባ የክርስቶስ ታላቅ ተልዕኮ አለም አቀፍ ቤተክርስትያን ን እየመራች በሳምንት ሶስት
+        ጊዜ ከተለያዩ ሀገሮች ፕሮግራሙን ለመሳተፍ የሚመጡ ምእመንን እያገለገለ ች በአዲስ አበባ እና በክልል ከተሞች በጎዳናዎች ላይ ወንጌልን በመስበክ  
+        እያገለገለች ትገኛለች እንዲሁም  CGM TV ETHIOPIA በሚል የቴሌቪዥን ስርጭት ብዙዎች የበረከቱ ተካፋይ እየሆኑ ይገኛል  ።
         </p>
 
-        <div class="btn-group">
-          <a href="#" class="btn btn-primary">Discover More</a>
+        <div style="justify-content:center;" class="btn-group">
+          
 
-          <button class="flex-btn">
+          <a href="service.html" class="flex-btn">
             <div class="btn-icon">
               <ion-icon name="play" aria-hidden="true"></ion-icon>
             </div>
 
-            <span class="span">How it works</span>
-          </button>
+            <span class="span">Explore</span>
+          </a>
         </div>
 
       </div>
@@ -59,7 +59,6 @@ customElements.define('hero-component', class extends HTMLElement {
     }
   }
   });
-
   customElements.define('program-component', class extends HTMLElement {
     constructor() {
       super(); // always call super() first in the constructor.
@@ -89,20 +88,24 @@ customElements.define('hero-component', class extends HTMLElement {
             <li>
               <div class="project-card">
 
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-4.jpg" width="510" height="700" loading="lazy"
-                    alt="Stuck with to-do list, I created a new app for" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
+                  <!-- <img src="./assets/images/project-4.jpg" width="510" height="700" loading="lazy"
+                    alt="Stuck with to-do list, I created a new app for" class="img-cover"> -->
                 </figure>
 
                 <div class="card-content">
 
-                  <p class="card-subtitle">Email Marketing</p>
+                  <p class="card-subtitle">እሁድ</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Stuck with to-do list, I created a new app for</a>
+                    <a href="#" class="card-title">ጠዋት 3፡30 እስከ 7፤30 የአምልኮ እና የቃል ጊዜ</a>
+                  </h3>
+                  
+                  <h3 class="h3">
+                    <a href="#" class="card-title">ከሰአት ከ 10፡00 እስከ 1፡30 የትንቢት እና የመንፈስ ቅዱስ ሙላት</a>
                   </h3>
 
-                  <a href="#" class="btn btn-primary">View Details</a>
+                 
 
                 </div>
 
@@ -112,20 +115,20 @@ customElements.define('hero-component', class extends HTMLElement {
             <li>
               <div class="project-card">
 
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-5.jpg" width="510" height="700" loading="lazy"
-                    alt="Examples of different types of sprints" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
+                  <!-- <img src="./assets/images/project-5.jpg" width="510" height="700" loading="lazy"
+                    alt="Examples of different types of sprints" class="img-cover"> -->
                 </figure>
 
                 <div class="card-content">
 
-                  <p class="card-subtitle">Marketing & Reporting</p>
+                  <p class="card-subtitle">ማክሰኞ</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Examples of different types of sprints</a>
+                    <a href="#" class="card-title"> ከ 10፡00 እስከ 1፡30 የአምልኮና የትምርት ጊዜ </a>
                   </h3>
 
-                  <a href="#" class="btn btn-primary">View Details</a>
+                  
 
                 </div>
 
@@ -135,20 +138,43 @@ customElements.define('hero-component', class extends HTMLElement {
             <li>
               <div class="project-card">
 
-                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
-                  <img src="./assets/images/project-6.jpg" width="510" height="700" loading="lazy"
-                    alt="Redesigning the New York times app" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
+                 <!-- <img src="./assets/images/project-6.jpg" width="510" height="700" loading="lazy"
+                    alt="Redesigning the New York times app" class="img-cover"> -->
                 </figure>
 
                 <div class="card-content">
 
-                  <p class="card-subtitle">Development</p>
+                  <p class="card-subtitle">ሐሙስ</p>
 
                   <h3 class="h3">
-                    <a href="#" class="card-title">Redesigning the New York times app</a>
+                    <a href="#" class="card-title">ከ 3፡30 እስከ 8፡00  የአምልኮ የቃልና ነጻ የመውጣት የመውጣት፡የትንቢት የፈውስ ጊዜ</a>
                   </h3>
 
-                  <a href="#" class="btn btn-primary">View Details</a>
+                  
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
+                 <!-- <img src="./assets/images/project-6.jpg" width="510" height="700" loading="lazy"
+                    alt="Redesigning the New York times app" class="img-cover"> -->
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">አርብ</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">ከጥዋቱ 3፡00 እስከ 6፡00 የምክር አገልግሎት</a>
+                  </h3>
+
+                  
 
                 </div>
 
@@ -188,46 +214,45 @@ customElements.define('hero-component', class extends HTMLElement {
     <div class="container">
 
       <figure class="about-banner">
-        <img src="./assets/images/about-banner.png" width="802" height="654" loading="lazy" alt="about banner"
-          class="w-100">
+        <img src="./assets/images/about-banner.png" width="450" height="300" loading="lazy" alt="about banner"
+          class="">
       </figure>
 
       <div class="about-content">
 
-        <h2 class="h2-sm section-title">We create some things, Design for your success future.</h2>
+        <h2 class="h2-sm section-title"></h2>
 
-        <p class="section-text">
-          Lorem Ipsum is simply dumm of free available in market the way printing and typesetting industry has been
-          the industrys
-          standard dummy text ever.
+        <p style="font-size:1.2em;" class="section-text">
+         በጌታ የተወደዳችሁ የክርስቶስ ቤተሰቦች: ባለፉት ጥቂት አመታት በዚህ ወንጌል አገልግሎት ከቤተ ክርስቲያን ጋር አብራችሁ በገንዘባችሁ፣ በምክራችሁ ፣በፀሎታችሁ ፣በጉልበታችሁ ከጎናችን የቆማችሁ ሁላችሁንም እግዚአብሄር አምላክ አብዝቶ ይባርካችሁ።
         </p>
 
         <ul class="about-list">
 
           <li class="has-before">
-            Price of additional materials or parts (if needed)
+          "...አሁን ሥራችሁን እንዲሁም በፊትም ሆነ አሁን ቅዱሳንን በመርዳት ስለ ስሙ ያሳያችሁትን ፍቅር አይረስም።"
           </li>
 
           <li class="has-before">
-            Transportation cost for carrying new materials/parts
+          በተጨማሪም ይህን መልእክት ለሌሎች በማህበራዊ ድህረ ገጾች በማጋራት አብረውን ይተባበሩ። 
           </li>
 
           <li class="has-before">
-            You will get 100% money back offer.
+          እግዚአብሄር ዘመናችሁን፣ ህይወታችሁን፣ ሥራችሁን፣ አገልግሎታችሁን፣ ቤተሰባችሁን እና ሁለንተናችሁን ይባርክ።
           </li>
 
         </ul>
 
-        <div class="btn-group">
-          <a href="#" class="btn btn-primary">Know More</a>
-
-          <button class="flex-btn">
+        <div style="justify-content: center;" class="btn-group">
+        <button class="flex-btn">
             <div class="btn-icon">
-              <ion-icon name="medal-outline" aria-hidden="true"></ion-icon>
+              
             </div>
 
-            <span class="span">10+ Years Experience</span>
+            <span class="span"></span>
           </button>
+          <a href="#" class="btn btn-primary">ነብይት ኤልሳቤት ታፈሰ</a>
+
+          
         </div>
 
       </div>
@@ -317,7 +342,8 @@ customElements.define('hero-component', class extends HTMLElement {
           
 
           <h2 style="margin-bottom: 20px;" class="h2 section-title text-center">Support Us</h2>
-
+          <h3 style="text-align:center;">የክርስቶስ ታላቅ ተልዕኮ አለም አቀፍ ቤተክርስትያን በኢትዮጵያና ከኢትዮጵያ ውጭ የሚደረጉ የወንጌል አገልግሎቶችን እንድትደግፉ በጌታ ፍቅር ጥሪ ታቀርባለች።</h3>
+          <h3 style="text-align:center;">ይህን አገልግሎት መደገፍ ለምትፈልጉ</h3>
           <ul class="grid-list">
 
             <li>
@@ -337,9 +363,7 @@ customElements.define('hero-component', class extends HTMLElement {
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span">Read More</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    <span class="span">ኤልሳቤጥ ታፈሰ</span>
                   </a>
 
                 </div>
@@ -364,9 +388,9 @@ customElements.define('hero-component', class extends HTMLElement {
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span">Read More</span>
+                    <span class="span">ኤልሳቤጥ ታፈሰ</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    
                   </a>
 
                 </div>
@@ -391,9 +415,9 @@ customElements.define('hero-component', class extends HTMLElement {
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span">Read More</span>
+                    <span class="span">ኤልሳቤጥ ታፈሰ</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    
                   </a>
 
                 </div>
@@ -418,9 +442,9 @@ customElements.define('hero-component', class extends HTMLElement {
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span class="span">Read More</span>
+                    <span class="span">ኤልሳቤጥ ታፈሰ</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                    
                   </a>
 
                 </div>
@@ -554,11 +578,12 @@ customElements.define('hero-component', class extends HTMLElement {
     </head>
     <section id="gallery">
   <div class="container">
+  <h1> Gallery </h1>
     <div id="image-gallery">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/500"><img src="https://unsplash.it/500" class="img-responsive"></a>
+            <a href="https://unsplash.it/500"><img src="./assets/images/img1.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -566,7 +591,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/600"><img src="https://unsplash.it/600" class="img-responsive"></a>
+            <a href="https://unsplash.it/600"><img src="./assets/images/img2.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -574,7 +599,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/700"><img src="https://unsplash.it/700" class="img-responsive"></a>
+            <a href="https://unsplash.it/700"><img src="./assets/images/img3.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -582,7 +607,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/800"><img src="https://unsplash.it/800" class="img-responsive"></a>
+            <a href="https://unsplash.it/800"><img src="./assets/images/pic2.jpg" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -590,7 +615,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/900"><img src="https://unsplash.it/900" class="img-responsive"></a>
+            <a href="https://unsplash.it/900"><img src="./assets/images/img9.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -598,7 +623,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/1000"><img src="https://unsplash.it/1000" class="img-responsive"></a>
+            <a href="https://unsplash.it/1000"><img height="250" src="./assets/images/img6.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -606,7 +631,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/1100"><img src="https://unsplash.it/1100" class="img-responsive"></a>
+            <a href="https://unsplash.it/1100"><img height="250" src="./assets/images/pic1.jpg" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -614,7 +639,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="https://unsplash.it/1200"><img src="https://unsplash.it/1200" class="img-responsive"></a>
+            <a href="https://unsplash.it/1200"><img height="250" src="./assets/images/img8.png" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
@@ -768,7 +793,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
           
 
-          <ul class="grid-list">
+          <ul class="grid-list grid-lists">
           <li>
           <div class="service-card has-after">
 
@@ -914,8 +939,8 @@ customElements.define('hero-component', class extends HTMLElement {
 
               <h3 class="h3 card-title">Mail Here</h3>
 
-              <a href="mailto:hello@luaz.com" class="card-link">Prophetmaranatashimelis@gmail.com</a>
-              <a href="mailto:info@luaz.com" class="card-link">info@ChristLoveTv.com</a>
+              <a href="mailto:hello@luaz.com" class="card-link">Elisatafe@gmail.com</a>
+              <a href="mailto:info@luaz.com" class="card-link">info@cgmtvethiopia.com</a>
 
             </div>
 
@@ -934,8 +959,8 @@ customElements.define('hero-component', class extends HTMLElement {
               <h3 class="h3 card-title">Visit Here</h3>
 
               <address class="card-address">
-              አዲስ አበባ ከአያት አደባባይ ወደፀበል በሚወስደው መንገድ <br>
-              አዲስ መንደር ቤቶች ፊትለፊት ንግድ ባንክ ጎን ሾቤ አያት ቅርንጫፍ
+              አዲስ አበባ ጎፋ ካምፕ ወደ ማብራት ሃይል በሚወስደው መንገድ <br>
+               100 ሜትር ገባ እንዳሉ ጉሊቱ የነበረው ፊት ለፊት <br> በቤቴል  አጥብያ ደግሞ ቤቴል ከቶታሉ ፊት ለፊት ያገኙናል      
               </address>
 
             </div>
@@ -953,9 +978,15 @@ customElements.define('hero-component', class extends HTMLElement {
             <div class="card-content">
 
               <h3 class="h3 card-title">Call Here</h3>
+              
+              
+              
+              
 
-              <a href="tel:+1234567890" class="card-link">+251 911 803799</a>
-              <a href="tel:+2414524526" class="card-link">+251 901 901010</a>
+              <a href="tel:0910834049" class="card-link">+251 910 834049</a>
+              <a href="tel:0978066070" class="card-link">+251 978 066070</a>
+              <a href="tel:0977202361" class="card-link">+251 977 202361</a>
+              <a href="tel:0924110247" class="card-link">+251 924 110247</a>
 
             </div>
 
@@ -974,6 +1005,153 @@ customElements.define('hero-component', class extends HTMLElement {
         this.shadowRoot.appendChild(this.childNodes[0]);
     }
   }
+});
+customElements.define('package-component', class extends HTMLElement {
+  constructor() {
+    super(); // always call super() first in the constructor.
+
+        // Attach a shadow root to <fancy-tabs>.
+  const shadowRoot = this.attachShadow({mode: 'open'});
+  shadowRoot.innerHTML = `
+  <body class="one">
+  <head>
+  <link rel="stylesheet" href="./assets/css/package.css"/>
+  </head>
+  <!-- 
+        - #PACKAGE
+      -->
+
+      <section style="margin-top: 30px;" class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle"></p>
+
+          <h2 class="h2 section-title">Join Our Zoom Meetings.</h2>
+
+          
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/zoom.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Elisabet Tafese is inviting you to a scheduled Zoom meeting.</h3>
+
+                  <p class="card-text">
+                  CGM TV / Prophetes Elsabet የትንቢት የቃል እና ነጻ መውጣት ጊዜ 
+                  Time:  ሁል ጊዜ ቅዳሜ ከምሽቱ 4:00-6:00 
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text"> 3:00 PM</p>
+                      </div>
+                    </li>
+
+                    
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Washington DC</p>
+                      </div>
+                    </li>
+
+                  </ul>
+                  <ul class="card-meta-list">
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="time"></ion-icon>
+
+                      <p class="text">3:00 AM</p>
+                    </div>
+                  </li>
+
+                  
+
+                  <li class="card-meta-item">
+                    <div class="meta-box">
+                      <ion-icon name="location"></ion-icon>
+
+                      <p class="text">Toronto</p>
+                    </div>
+                  </li>
+
+                </ul>
+                <ul class="card-meta-list">
+
+                <li class="card-meta-item">
+                  <div class="meta-box">
+                    <ion-icon name="time"></ion-icon>
+
+                    <p class="text">4:00 ማታ local time</p>
+                  </div>
+                </li>
+
+               
+
+                <li class="card-meta-item">
+                  <div class="meta-box">
+                    <ion-icon name="location"></ion-icon>
+
+                    <p class="text">Ethiopia</p>
+                  </div>
+                </li>
+
+              </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    
+
+                  </div>
+
+                  <p class="price">
+                  ID  89087211519 
+                  
+                    <span>Passcode 756184</span>
+                  </p>
+
+                  <a href="https://us06web.zoom.us/j/89087211519?pwd=NENhUC9WM3Z6RzBDMXZ1Umc1bWxVZz09 " class="btn btn-secondary">Join Meeting</a>
+
+                </div>
+
+              </div>
+            </li>
+
+           
+           
+          </ul>
+
+          
+          
+        </div>
+      </section>
+      
+</body>
+  `;
+}
+connectedCallback() {
+  while (this.childNodes.length > 0) {
+      this.shadowRoot.appendChild(this.childNodes[0]);
+  }
+}
 });
   customElements.define('-component', class extends HTMLElement {
     constructor() {

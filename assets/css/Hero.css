@@ -999,7 +999,7 @@
      * HERO
      */
   
-    .hero { text-align: left; }
+    .hero { text-align: center; }
   
     .hero .container {
       grid-template-columns: 1fr 0.7fr;
@@ -1090,7 +1090,7 @@
        * typography
        */
   
-      --fs-1: 7.5rem;
+      --fs-1: 6.5rem;
       --fs-4: 3.8rem;
   
     }

@@ -216,7 +216,7 @@
   
   .h2 { font-size: var(--fs-2); }
   
-  .h3 { font-size: var(--fs-3); }
+  .h3 { font-size: var(--fs-4); }
   
   .w-100 { width: 100%; }
   
@@ -232,7 +232,7 @@
   
   .img-holder {
     aspect-ratio: var(--width) / var(--height);
-    background-color: var(--light-gray);
+    background-color: #2A38ff;
   }
   
   .img-cover {
@@ -912,7 +912,7 @@
        * spacing
        */
   
-      --section-padding: 100px;
+      --section-padding: 30px;
   
     }
   
@@ -924,7 +924,8 @@
   
     .container { max-width: 960px; }
   
-    .grid-list { grid-template-columns: repeat(3, 1fr); }
+    .grid-list { grid-template-columns: repeat(4, 0.3fr); }
+    .grid-lists { grid-template-columns: repeat(3, 1fr); }
   
   
   

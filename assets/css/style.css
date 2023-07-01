@@ -717,7 +717,7 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .footer {
-  background-color: var(--charcoal);
+  background-color: #13206e;
   padding-block: 60px 100px;
   color: var(--light-gray);
 }
@@ -884,7 +884,7 @@ body.nav-active { overflow: hidden; }
    */
 
   .about .container {
-    grid-template-columns: 1fr 0.7fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
   }
 
@@ -1085,7 +1085,7 @@ body.nav-active { overflow: hidden; }
    */
 
   address.footer-text {
-    padding-inline-end: 100px;
+    /* padding-inline-end: 100px; */
     margin-block-end: 16px;
   }
 
