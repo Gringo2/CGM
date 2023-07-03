@@ -396,13 +396,13 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/Coopbank.svg" width="140" height="140" loading="lazy"
+                  <img src="./assets/images/Hibret.svg" width="140" height="140" loading="lazy"
                     alt="Professional Content Writer" class="img">
                 </figure>
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">COOP Birhan Bank</h3>
+                  <h3 class="h3 card-title">Birhan Bank</h3>
 
                   <p class="card-text">
                   1143340530256
@@ -1000,7 +1000,7 @@ customElements.define('hero-component', class extends HTMLElement {
     }
   }
 });
-customElements.define('package-component', class extends HTMLElement {
+  customElements.define('package-component', class extends HTMLElement {
   constructor() {
     super(); // always call super() first in the constructor.
 
@@ -1168,4 +1168,4 @@ connectedCallback() {
         this.shadowRoot.appendChild(this.childNodes[0]);
     }
   }
-  });
+});

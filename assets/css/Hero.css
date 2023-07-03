@@ -1070,7 +1070,12 @@
   
   }
   
-  
+  @media (min-width: 600px){
+    .container{
+      grid-column-start: 2;
+    }
+   
+  }
   
   
   
