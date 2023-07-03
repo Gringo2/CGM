@@ -213,8 +213,8 @@ customElements.define('hero-component', class extends HTMLElement {
   <section class="section about" id="about" aria-label="about">
     <div class="container">
 
-      <figure class="about-banner">
-        <img src="./assets/images/about-banner.png" width="450" height="300" loading="lazy" alt="about banner"
+      <figure style="margin:auto;" class="about-banner">
+        <img style="border-radius: 25px;" src="./assets/images/about-banner.png" width="450" height="300" loading="lazy" alt="about banner"
           class="">
       </figure>
 
@@ -243,13 +243,7 @@ customElements.define('hero-component', class extends HTMLElement {
         </ul>
 
         <div style="justify-content: center;" class="btn-group">
-        <button class="flex-btn">
-            <div class="btn-icon">
-              
-            </div>
-
-            <span class="span"></span>
-          </button>
+        
           <a href="#" class="btn btn-primary">ነብይት ኤልሳቤት ታፈሰ</a>
 
           
