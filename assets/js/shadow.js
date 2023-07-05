@@ -85,7 +85,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
           <ul class="grid-list">
 
-            <li>
+            <li class="listset">
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
@@ -112,7 +112,7 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
             </li>
 
-            <li>
+            <li class="listset">
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
@@ -135,7 +135,7 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
             </li>
 
-            <li>
+            <li class="listset">
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
@@ -158,7 +158,7 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
             </li>
 
-            <li>
+            <li class="listset">
               <div class="project-card">
 
                 <figure class="card-banner img-holder" style="--width: 510; --height: 450;">
@@ -1147,7 +1147,7 @@ connectedCallback() {
   }
 }
 });
-  customElements.define('-component', class extends HTMLElement {
+  customElements.define('prog-component', class extends HTMLElement {
     constructor() {
       super(); // always call super() first in the constructor.
   
@@ -1156,9 +1156,184 @@ connectedCallback() {
     shadowRoot.innerHTML = `
     <body class="one">
     <head>
-    <link rel="stylesheet" href="./assets/css/Program.css"/>
+    <link rel="stylesheet" href="./assets/css/prog.css"/>
     </head>
-    
+    <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+    style="background-image: url('./assets/images/classes-bg.png')">
+    <div class="container">
+
+      <h2 style="color:#13206e;text-align:center;">የፕሮግራም ቀናት </h2>
+
+      <h2 class="h2 section-title text-center"></h2>
+
+      <ul class="class-list has-scrollbar">
+
+        <li class="scrollbar-item">
+          <div class="class-card">
+
+            <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
+              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_1"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="title-wrapper">
+                <img src="./assets/images/clock.svg" width="34" height="34" loading="lazy" alt="Clock">
+                <h3 class="h3">
+                  <a href="#" style="margin-left: 20px; color:white;" class="card-title">እሁድ ጥዋት 3፡30 እስከ 7፤30 የአምልኮ እና የቃል ጊዜ፡ ከሰአት ከ 10፡00 እስከ 1፡30 የትንቢት እና የመንፈስ ቅዱስ ሙላት</a>
+                </h3>
+              </div>
+
+              <!-- <p class="card-text">
+                Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+              </p> -->
+
+              <!-- <div class="card-progress">
+
+                <div class="progress-wrapper">
+                  <p class="progress-label">Class Full</p>
+
+                  <span class="progress-value">85%</span>
+                </div>
+
+                <div class="progress-bg">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+
+              </div> -->
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="scrollbar-item">
+          <div class="class-card">
+
+            <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
+              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_2"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="title-wrapper">
+                <img src="./assets/images/clock.svg" width="34" height="34" loading="lazy" alt="Clock">
+
+                <h3 class="h3">
+                  <a href="#" style="margin-left: 20px; color:white;"" class="card-title">ማክሰኞ ከ 10፡00 እስከ <br>1፡30 የአምልኮና የትምርት ጊዜ </a>
+                </h3>
+              </div>
+
+              <!-- <p class="card-text">
+                Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+              </p> -->
+
+              <!-- <div class="card-progress">
+
+                <div class="progress-wrapper">
+                  <p class="progress-label">Class Full</p>
+
+                  <span class="progress-value">90%</span>
+                </div>
+
+                <div class="progress-bg">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+
+              </div> -->
+
+            </div>
+
+          </div>
+        </li>
+
+        <li class="scrollbar-item">
+          <div class="class-card">
+
+            <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
+              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_3"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="title-wrapper">
+                <img src="./assets/images/clock.svg" width="34" height="34" loading="lazy" alt="Clock">
+
+                <h3 class="h3">
+                  <a href="#" style="margin-left: 20px; color:white;" class="card-title">ሐሙስ ከ 3፡30 እስከ 8፡00  የአምልኮ የቃልና ነጻ የመውጣት፡የትንቢት የፈውስ ጊዜ</a>
+                </h3>
+              </div>
+
+              <!-- <p class="card-text">
+                Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+              </p> -->
+
+              <!-- <div class="card-progress">
+
+                <div class="progress-wrapper">
+                  <p class="progress-label">Class Full</p>
+
+                  <span class="progress-value">60%</span>
+                </div>
+
+                <div class="progress-bg">
+                  <div class="progress-bar" style="width: 60%"></div>
+                </div>
+
+              </div> -->
+
+            </div>
+
+          </div>
+        </li>
+        <li class="scrollbar-item">
+          <div class="class-card">
+
+            <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
+              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_3"
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <div class="title-wrapper">
+                <img src="./assets/images/clock.svg" width="34" height="34" loading="lazy" alt="Clock">
+
+                <h3 class="h3">
+                  <a href="#" style="margin-left: 20px; color:white;" class="card-title">አርብ ከጥዋቱ 3፡00 እስከ <br> 6፡00 የምክር አገልግሎት</a>
+                </h3>
+              </div>
+
+              <!-- <p class="card-text">
+                Suspendisse nisi libero, cursus ac magna sit amet, fermentum imperdiet nisi.
+              </p> -->
+
+              <!-- <div class="card-progress">
+
+                <div class="progress-wrapper">
+                  <p class="progress-label">Class Full</p>
+
+                  <span class="progress-value">60%</span>
+                </div>
+
+                <div class="progress-bg">
+                  <div class="progress-bar" style="width: 60%"></div>
+                </div>
+
+              </div> -->
+
+            </div>
+
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
         
     </body>
     `;
