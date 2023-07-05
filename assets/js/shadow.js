@@ -1172,7 +1172,7 @@ connectedCallback() {
           <div class="class-card">
 
             <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
-              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_1"
+              <img src="./assets/images/service-1.jpg" width="416" height="240" loading="lazy" alt="program_image_1"
                 class="img-cover">
             </figure>
 
@@ -1212,7 +1212,7 @@ connectedCallback() {
           <div class="class-card">
 
             <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
-              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_2"
+              <img src="./assets/images/service-1.jpg" width="416" height="240" loading="lazy" alt="program_image_2"
                 class="img-cover">
             </figure>
 
@@ -1253,7 +1253,7 @@ connectedCallback() {
           <div class="class-card">
 
             <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
-              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_3"
+              <img src="./assets/images/service-1.jpg" width="416" height="240" loading="lazy" alt="program_image_3"
                 class="img-cover">
             </figure>
 
@@ -1293,7 +1293,7 @@ connectedCallback() {
           <div class="class-card">
 
             <figure class="card-banner img-holder" style="--width: 416; --height: 350;">
-              <img src="./assets/images/service-1.JPG" width="416" height="240" loading="lazy" alt="program_image_3"
+              <img src="./assets/images/service-1.jpg" width="416" height="240" loading="lazy" alt="program_image_3"
                 class="img-cover">
             </figure>
 
