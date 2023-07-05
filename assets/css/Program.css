@@ -925,9 +925,7 @@
     .container { max-width: 960px; }
   
     .grid-list { 
-      display: flex;
-      overflow-x: auto;
-      scroll-snap-type: inline mandatory
+      grid-template-columns: repeat(3, 1fr);
     }
     .grid-list .listset{
       width: 400px;
