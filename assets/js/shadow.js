@@ -1,4 +1,4 @@
-customElements.define('hero-component', class extends HTMLElement {
+  customElements.define('hero-component', class extends HTMLElement {
     constructor() {
       super(); // always call super() first in the constructor.
   
@@ -345,7 +345,7 @@ customElements.define('hero-component', class extends HTMLElement {
 
                 <figure class="card-icon">
                   <img src="./assets/images/cbe.jpg" width="140" height="140" loading="lazy"
-                    alt="UI/UX Creative Design" class="img">
+                    alt="cbe logo" class="img">
                 </figure>
 
                 <div class="card-content">
@@ -369,7 +369,7 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/awash.svg" width="140" height="140" loading="lazy" alt="App Development"
+                  <img src="./assets/images/awash.svg" width="140" height="140" loading="lazy" alt="Awash bank logo"
                     class="img">
                 </figure>
 
@@ -396,8 +396,8 @@ customElements.define('hero-component', class extends HTMLElement {
               <div class="service-card has-after">
 
                 <figure class="card-icon">
-                  <img src="./assets/images/Hibret.svg" width="140" height="140" loading="lazy"
-                    alt="Professional Content Writer" class="img">
+                  <img src="./assets/images/brhan.png" width="140" height="140" loading="lazy"
+                    alt="birhan bank logo" class="img">
                 </figure>
 
                 <div class="card-content">
@@ -783,7 +783,7 @@ customElements.define('hero-component', class extends HTMLElement {
       <section class="section service" id="services" aria-label="service">
         <div class="container">
 
-          <h2 style="margin-bottom: 40px;" class="h2 section-title text-center">Our Creative Services</h2>
+          <h2 style="margin-bottom: 40px;" class="h2 section-title text-center"></h2>
 
           
 
@@ -791,14 +791,14 @@ customElements.define('hero-component', class extends HTMLElement {
           <li>
           <div class="service-card has-after">
 
-            <figure class="card-icon">
+            <!-- <figure class="card-icon">
               <img src="./assets/images/values.svg" width="140" height="140" loading="lazy"
                 alt="Professional Content Writer" class="img">
-            </figure>
+            </figure> -->
 
             <div class="card-content">
 
-              <h3 class="h3 card-title">ዕሴት</h3>
+              <h3 style="font-size: 40px;" class="h3 card-title">ዕሴት</h3>
 
               <p class="card-text">
               መጽሀፍ ቅዱስ የእግዚአብሔር ቃል ሲሆን ለአለም ሁሉ የቃሉ ብርሃን እንዲበራለት የሰው ልጆች የሚገኙበትን/ ፍጥረታት ሁሉ/ 
@@ -816,14 +816,14 @@ customElements.define('hero-component', class extends HTMLElement {
             <li>
               <div class="service-card has-after">
 
-                <figure class="card-icon">
+                <!-- <figure class="card-icon">
                   <img src="./assets/images/mission.svg" width="140" height="140" loading="lazy" alt="App Development"
                     class="img">
-                </figure>
+                </figure> -->
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">ተልዕኮ</h3>
+                  <h3 style="font-size: 40px;" class="h3 card-title">ተልዕኮ</h3>
 
                   <p class="card-text">
                   የእግዚአብሔር ቃል እንደሚናገር “ሂዱ ወንጌልን ለፍጥረት ሁሉ ስበኩ”
@@ -839,16 +839,16 @@ customElements.define('hero-component', class extends HTMLElement {
               </div>
             </li>
             <li>
-              <div class="service-card has-after">
+              <div  class="service-card has-after">
 
-                <figure class="card-icon">
+                <!-- <figure class="card-icon">
                   <img style="margin: 20px 0px;" src="./assets/images/vision.svg" width="140" height="140" loading="lazy"
                     alt="UI/UX Creative Design" class="img">
-                </figure>
+                </figure> -->
 
                 <div class="card-content">
 
-                  <h3 class="h3 card-title">ራዕይ</h3>
+                  <h3 style="font-size: 40px;" class="h3 card-title">ራዕይ</h3>
 
                   <p class="card-text">
                   በመንፈስ ቅዱስ ምሪት ሰዎችን በእውነተኛ የእግዚአብሔር ቃል ማስታጠቅ ፤ በወንጌል መድረስ እና ደቀ መዝሙር ማድረግ፤ 
@@ -999,7 +999,7 @@ customElements.define('hero-component', class extends HTMLElement {
         this.shadowRoot.appendChild(this.childNodes[0]);
     }
   }
-});
+  });
   customElements.define('package-component', class extends HTMLElement {
   constructor() {
     super(); // always call super() first in the constructor.
@@ -1146,7 +1146,7 @@ connectedCallback() {
       this.shadowRoot.appendChild(this.childNodes[0]);
   }
 }
-});
+  });
   customElements.define('prog-component', class extends HTMLElement {
     constructor() {
       super(); // always call super() first in the constructor.
@@ -1343,4 +1343,4 @@ connectedCallback() {
         this.shadowRoot.appendChild(this.childNodes[0]);
     }
   }
-});
+  });
